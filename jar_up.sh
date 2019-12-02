@@ -2,7 +2,7 @@
 
 set -e
 
-mkdir jars
+mkdir jars || true
 
 echo "Compling Cat..."
 javac com/kaoruk/Cat.java

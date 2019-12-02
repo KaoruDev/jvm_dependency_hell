@@ -11,6 +11,10 @@ class Person {
     this.name = name;
   }
 
+  public void adoptCat() {
+    this.cat = new Cat();
+  }
+
   public String sayHello() {
     if (Objects.isNull(cat)) {
       return this.name + ": Life has no meaning with a cat";
