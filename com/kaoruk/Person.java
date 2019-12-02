@@ -1,3 +1,6 @@
+package com.kaoruk;
+
+import com.kaoruk.Cat;
 import java.util.Objects;
 
 class Person {
